@@ -43,13 +43,20 @@ Leveraged Plotly for dynamic visualizations, providing insightful data explorati
 >## Packages & Libraries
 
 ```python
-import json
-import time
+import pymongo
 import pandas as pd
+import datetime as dt
+import scipy.stats as st
+from statsmodels.multivariate.manova import MANOVA
+import numpy as np
+import statistics as s
 import streamlit as st
 from streamlit_option_menu import option_menu
+import plotly.graph_objs as go
+import seaborn as sns
+import matplotlib.pyplot as plt
 import plotly.express as px
-from sqlalchemy import create_engine
-import mysql.connector
+from PIL import Image
+
 
 
